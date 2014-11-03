@@ -20,15 +20,18 @@ class Animal():
         self.name = name
 
     def animal_grow(self, months):
-        self.weight *= months*self.weight_age
+        self.weight += months*self.weight_age
         self.age += months
         if self.weight > self.averageWeight:
             self.weight = self.averageWeight
 
     def animal_eat(self, food_type):
         if self.food_type == food_type:
-            self.weight += (self.weight*self.food_weight) - \
-                (self.weight*self.food_weight / 2)
+            food = self.weight*self.food_weight
+            shit = food / 2
+            self.weight += food - shit
+            if self.weight > self.averageWeight:
+                self.weight = self.averageWeight
         else:
             print("Wrong food type")
 
