@@ -33,14 +33,13 @@ class Animal():
             if self.weight > self.averageWeight:
                 self.weight = self.averageWeight
         else:
-            print("Wrong food type")
+            return "Wrong food type"
 
     def animal_die(self):
-        age = self.age / 12
-        chance_of_dying = age // self.life_expectancy
-        random.randrange(chance_of_dying, 1)
-        dead = random.random()
-        if dead == 1:
+        chance_of_dying = self.age / self.life_expectancy
+        chance_of_dying *= 100
+        dead = random.randrange(int(chance_of_dying), 100)
+        if dead > 90:
             return True
         else:
             return False
