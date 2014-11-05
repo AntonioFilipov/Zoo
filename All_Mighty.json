@@ -1,0 +1,52 @@
+{
+    "tiger":
+    {
+        "life_expectancy": 180,
+        "food_type": "meat",
+        "gestation_period": "3",
+        "newborn": 15,
+        "aveage_weight": 80,
+        "weight_age": 1.33,
+        "food_weight": 0.25
+    },
+    "panda":
+    {
+        "life_expectancy": 980,
+        "food_type": "bamboo",
+        "gestation_period": "5",
+        "newborn": 20,
+        "aveage_weight": 120,
+        "weight_age": 1.5,
+        "food_weight": 0.25
+    },
+    "horse":
+    {
+        "life_expectancy": 200,
+        "food_type": "grass",
+        "gestation_period": "4",
+        "newborn": 13,
+        "aveage_weight": 90,
+        "weight_age": 1.2,
+        "food_weight": 0.20
+    },
+    "suricate":
+    {
+        "life_expectancy": 156 ,
+        "food_type": "grass",
+        "gestation_period": "2",
+        "newborn": 0.1,
+        "aveage_weight": 0.7,
+        "weight_age": 0.56,
+        "food_weight": 0.18
+    },
+    "king penguin":
+    {
+        "life_expectancy": 150,
+        "food_type": "fish",
+        "gestation_period": "1",
+        "newborn": 3,
+        "aveage_weight": 45,
+        "weight_age": 1.33,
+        "food_weight": 0.30
+    },
+}
