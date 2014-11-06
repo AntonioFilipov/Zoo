@@ -27,19 +27,19 @@ class Animal():
             raise ValueError("No such animal in json")
 
     def __str__(self):
-        return "{} {} {} {} {} {} {} {} {} {} {} {}".format(self.species,
-                                                            self.age,
-                                                            self.name,
-                                                            self.gender,
-                                                            self.weight,
-                                                            self.life_expectancy,
-                                                            self.food_type,
-                                                            self.gestation_period,
-                                                            self.newborn,
-                                                            self.average_weight,
-                                                            self.weight_age,
-                                                            self.food_weight
-                                                            )
+        return "{} : {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}".format(self.species,
+                                                                        self.age,
+                                                                        self.name,
+                                                                        self.gender,
+                                                                        self.weight,
+                                                                        self.life_expectancy,
+                                                                        self.food_type,
+                                                                        self.gestation_period,
+                                                                        self.newborn,
+                                                                        self.average_weight,
+                                                                        self.weight_age,
+                                                                        self.food_weight
+                                                                        )
 
     def animal_grow(self, months):
         self.weight += months*self.weight_age
