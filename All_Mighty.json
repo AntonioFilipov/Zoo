@@ -3,7 +3,7 @@
     {
         "life_expectancy": 180,
         "food_type": "meat",
-        "gestation_period": "3",
+        "gestation_period": 3,
         "newborn": 15,
         "average_weight": 80,
         "weight_age": 1.33,
@@ -13,7 +13,7 @@
     {
         "life_expectancy": 980,
         "food_type": "bamboo",
-        "gestation_period": "5",
+        "gestation_period": 5,
         "newborn": 20,
         "average_weight": 120,
         "weight_age": 1.5,
@@ -23,7 +23,7 @@
     {
         "life_expectancy": 200,
         "food_type": "grass",
-        "gestation_period": "4",
+        "gestation_period": 4,
         "newborn": 13,
         "average_weight": 90,
         "weight_age": 1.2,
@@ -33,7 +33,7 @@
     {
         "life_expectancy": 156 ,
         "food_type": "grass",
-        "gestation_period": "2",
+        "gestation_period": 2,
         "newborn": 0.1,
         "average_weight": 0.7,
         "weight_age": 0.56,
@@ -43,7 +43,7 @@
     {
         "life_expectancy": 150,
         "food_type": "fish",
-        "gestation_period": "1",
+        "gestation_period": 1,
         "newborn": 3,
         "average_weight": 45,
         "weight_age": 1.33,
